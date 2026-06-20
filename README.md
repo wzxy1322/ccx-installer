@@ -53,36 +53,6 @@ python build.py
 # Output: dist/CCX Plugin Installer.exe
 ```
 
-## 📁 Project Structure
-
-```
-ccx-installer-gui/
-├── run.py                  # Entry point (also PyInstaller entry)
-├── build.py                # PyInstaller build script
-├── generate_icon.py        # Icon generator
-├── requirements.txt        # Python dependencies
-├── src/
-│   ├── main.py             # App bootstrap & theme config
-│   ├── constants.py        # Paths, templates, defaults
-│   ├── core/               # Business logic (no GUI deps)
-│   │   ├── ccx_parser.py   # .ccx ZIP parsing & validation
-│   │   ├── psjson.py       # PS.json registry I/O (atomic writes)
-│   │   ├── installer.py    # Install pipeline
-│   │   ├── uninstaller.py  # Uninstall pipeline
-│   │   └── scanner.py      # Installed plugin discovery
-│   ├── gui/                # customtkinter UI components
-│   │   ├── app.py          # Main window & tab controller
-│   │   ├── install_tab.py  # Install tab (browse, info, install)
-│   │   ├── manage_tab.py   # Manage tab (list, uninstall, repair)
-│   │   ├── styles.py       # Colors, fonts, dimensions
-│   │   └── dialogs.py      # Confirm, error, success modals
-│   └── utils/              # Shared utilities
-│       ├── tempdir.py      # Temp directory context manager
-│       └── validation.py   # manifest.json validators
-└── assets/
-    └── icon.ico            # App icon (generated)
-```
-
 ## 🔧 How It Works
 
 1. **`.ccx` = ZIP** — The tool opens the `.ccx` file as a ZIP archive, extracts `manifest.json`, and displays plugin metadata.
