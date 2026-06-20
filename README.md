@@ -13,35 +13,6 @@ No Creative Cloud Desktop required — install plugins directly with a clean gra
 - **Repair Tools** — Handles edge cases like unregistered plugins or stale PS.json entries
 - **No Dependencies on Adobe Tools** — Works offline with pure filesystem operations
 
-## 🖥️ Screenshots
-
-### Install Tab
-```
-┌──────────────────────────────────────────────────────┐
-│  📦  CCX Plugin Installer                             │
-│  Adobe Photoshop UXP Plugin Manager                  │
-├──────────────────────────────────────────────────────┤
-│  [ Install Plugin ]  [ Manage Installed ]             │
-├──────────────────────────────────────────────────────┤
-│  ┌─ Select Plugin ─────────────────────────────────┐ │
-│  │  CCX File: [C:\...\plugin.ccx       ] [Browse]  │ │
-│  └────────────────────────────────────────────────┘ │
-│  ┌─ Plugin Details ────────────────────────────────┐ │
-│  │  [📦]  Name:    Comfyui Photoshop               │ │
-│  │        ID:      3e6d64e0                         │ │
-│  │        Version: 1.9.3                            │ │
-│  │        Host:    PS ≥ 23.0.0                      │ │
-│  │        Panels:  Ai Panel, Settings, ComfyUI Web  │ │
-│  └─────────────────────────────────────────────────┘ │
-│              [ ====== Install Plugin ====== ]         │
-│  ┌─ Status ────────────────────────────────────────┐ │
-│  │  [15:04:32] Validating .ccx file...             │ │
-│  │  [15:04:33] Plugin manifest valid.               │ │
-│  │  [15:04:34] ✓ Plugin installed. Restart PS!      │ │
-│  └─────────────────────────────────────────────────┘ │
-└──────────────────────────────────────────────────────┘
-```
-
 ## 🚀 Quick Start
 
 ### Prerequisites
