@@ -1,7 +1,6 @@
 # 📦 CCX格式插件安装器 CCX Plugin Installer
 
-用于安装 Adobe Photoshop `.ccx` (UXP) 插件
-无需Creative Cloud，通过简洁的图形界面直接安装插件
+无需Creative Cloud安装 Adobe Photoshop `.ccx` (UXP) 插件
 
 A modern Windows GUI tool for installing Adobe Photoshop `.ccx` (UXP) plugins.
 No Creative Cloud Desktop required — install plugins directly with a clean graphical interface.
