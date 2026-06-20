@@ -1,17 +1,10 @@
 # 📦 CCX Plugin Installer
 
+用于安装 Adobe Photoshop `.ccx` (UXP) 插件
+无需Creative Cloud，通过简洁的图形界面直接安装插件
+
 A modern Windows GUI tool for installing Adobe Photoshop `.ccx` (UXP) plugins.
-
 No Creative Cloud Desktop required — install plugins directly with a clean graphical interface.
-
-## ✨ Features
-
-- **Browse & Parse** — Select a `.ccx` file and instantly view plugin details (name, version, ID, panels, host requirements)
-- **One-Click Install** — Extracts the plugin, copies to the correct UXP directory, and registers it in Photoshop's plugin registry
-- **Manage Installed** — View all installed plugins, check their status, and uninstall with a single click
-- **Smart Detection** — Detects existing installations, offers update/reinstall flow, and warns about non-Photoshop plugins
-- **Repair Tools** — Handles edge cases like unregistered plugins or stale PS.json entries
-- **No Dependencies on Adobe Tools** — Works offline with pure filesystem operations
 
 ## 🚀 Quick Start
 
