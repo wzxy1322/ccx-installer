@@ -34,18 +34,6 @@ python build.py
 # Output: dist/CCX Plugin Installer.exe
 ```
 
-## 🔧 How It Works
-
-1. **`.ccx` = ZIP** — The tool opens the `.ccx` file as a ZIP archive, extracts `manifest.json`, and displays plugin metadata.
-
-2. **Install** — The plugin is extracted to `%APPDATA%\Adobe\UXP\Plugins\External\{pluginId}_{version}\` and registered in `%APPDATA%\Adobe\UXP\PluginsInfo\v1\PS.json`.
-
-3. **No Adobe Dependencies** — Unlike the official UPIA installer, this tool works without Creative Cloud Desktop. It directly manipulates the filesystem paths that Photoshop reads at startup.
-
-4. **Atomic PS.json Writes** — PS.json (the plugin registry) is written via a `.tmp` file + `os.replace()` to prevent corruption.
-
-5. **Background Threading** — Install/uninstall operations run in background threads, keeping the UI responsive with live status updates.
-
 ## ⚠️ Important Notes
 
 - **Always restart Photoshop** after installing or uninstalling a plugin — Photoshop reads the plugin registry only at startup.
