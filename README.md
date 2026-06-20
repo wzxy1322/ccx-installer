@@ -8,19 +8,7 @@ No Creative Cloud Desktop required — install plugins directly with a clean gra
 
 ## 🚀 Quick Start
 
-### Prerequisites
-- **Windows 10 or later**
-- **Adobe Photoshop 2022 or later** (v23.0.0+)
-- No Python required for the `.exe` release
-
-### Option A: Download Pre-built .exe
-
-1. Download `CCX Plugin Installer.exe` from [Releases](https://github.com/yourusername/ccx-installer-gui/releases)
-2. Run the `.exe` (Windows may show SmartScreen warning — click "More Info" → "Run Anyway")
-3. Browse to your `.ccx` file and click **Install Plugin**
-4. Restart Photoshop
-
-### Option B: Run from Source
+### Run from Source
 
 ```bash
 # Clone the repo
